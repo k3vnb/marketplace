@@ -41,16 +41,22 @@ $(function() {
     event.preventDefault();
     myCart.bag += this.id;
     myCart.bagPrice();
+    $("#output-bag").prepend(" bag ");
+    alert("bag");
   });
   $("a#shoe").click(function(event) {
     event.preventDefault();
     myCart.shoe += this.id;
     myCart.shoePrice();
+    $("#output-shoe").prepend(" shoe ");
+    alert("shoe");
   });
   $("a#sweater").click(function(event) {
     event.preventDefault();
     myCart.sweater += this.id;
     myCart.sweaterPrice();
+    $("#output-sweater").prepend(" sweater ");
+    alert("sweater");
   });
 
 
