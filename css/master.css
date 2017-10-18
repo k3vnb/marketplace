@@ -3,3 +3,13 @@ h1 {
   font-family: sans-serif;
   text-shadow: 2px 2px 1px sienna;
 }
+
+#cart-body {
+  display: none;
+}
+
+.card-img-top {
+  min-height: 300px;
+  max-height: 300px;
+  border: 1px solid;
+}
